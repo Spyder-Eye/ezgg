@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jack's VR Webpage</title>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+</head>
+
+<body>
+<a-scene>
+    <a-entity environment="preset:tron; dressingAmount: 20;horizonColor: #485F78; skyType:gradient; skyColor: #0F0E24; fog:0.8009; ground:noise; playArea: 1; ground:canyon; flatShading: false; shadow: false;groundYScale:2.5; light position:0 -2 0; seed: 3;"></a-entity>
+<!--Museum Start-->
+<a-cylinder id= "floor" position="0 0 0" radius="7.5" height="0.1" color="#816E1E" src="Images/thedigitalartist-wood-1161205.jpg"></a-cylinder>
+<a-box id= "wall1" position= "0 1.473 4.907" scale="10 3 0.2" color="#ECD499" src="Images/lesiakower-mountains-7728691_1920.png"></a-box>
+<a-box id= "wall1" position= "0 1.473 4.913" scale="10.01 3 0.205" color="#ECD499"></a-box>
+<a-box id= "wall2" position= "0 1.473 -4.907" scale="10 3 0.2" src="Images/koikeyusuke-pacman-7024232.jpg"></a-box>
+<a-box id= "wall2" position= "0 1.473 -4.913" scale="10.01 3 0.205" color="#ECD499"></a-box>
+<a-box id= "wall3" position= "5.049 1.473 -0" rotation="0 -90 0" scale="10 3 0.2" color="#ECD499" src="Images/allinonemovie-island-2873196_1920 (1).png"></a-box>
+<a-box id= "wall3" position= "5.055 1.473 -0" rotation="0 -90 0" scale="10.01 3 0.205" color="#ECD499"></a-box>
+<a-box id= "wall4" position= "-5.049 1.473 -0" rotation="0 90 0" scale="10 3 0.2" color="#ECD499 " src="Images/lesiakower-mountains-7728691_1920.png"></a-box>
+<a-box id= "wall4" position= "-5.055 1.473 -0" rotation="0 90 0" scale="10.01 3 0.205" color="#ECD499 "></a-box>
+<a-cylinder id="triangle_front" segments-radial="3" position="0 3.874 4.907" rotation="-90 0 0" scale="5.774 0.2 1.8" color="#D4B974"></a-cylinder>
+<a-cylinder id="triangle_back" segments-radial="3" position="0 3.874 -4.907" rotation="-90 0 0" scale="5.774 0.2 1.8" color="#D4B974"></a-cylinder>
+<a-box id="roof_right" position="2.580 4.328 0" rotation="28.433 90 0" scale="10.931 0.20 6.110" color="#AB8444"></a-box>
+<a-box id="roof_left" position="-2.599 4.321 -0.017" rotation="28.433 -90 0" scale="10.931 0.20 6.130" color="#AB8444"></a-box>
+</a-scene>
+</body>
+</html
