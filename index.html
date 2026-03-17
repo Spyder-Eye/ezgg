@@ -15,13 +15,13 @@
     <a-entity environment="preset:tron; dressingAmount: 20;horizonColor: #485F78; skyType:gradient; skyColor: #0F0E24; fog:0.8009; ground:noise; playArea: 1; ground:canyon; flatShading: false; shadow: false;groundYScale:2.5; light position:0 -2 0; seed: 3;"></a-entity>
 <!--Museum Start-->
 <a-cylinder id= "floor" position="0 0 0" radius="7.5" height="0.1" color="#816E1E" src="Images/wood_grain.jpg"></a-cylinder>
-<a-box id= "wall1" position= "0 1.473 4.907" scale="10 3 0.2" color="#ECD499" src="Images/terraria_mountain.png"></a-box>
+<a-box id= "wallpaper1" position= "0 1.473 4.907" scale="10 3 0.2" color="#ECD499" src="Images/terraria_mountain.png"></a-box>
 <a-box id= "wall1" position= "0 1.473 4.913" scale="10.01 3 0.205" color="#ECD499"></a-box>
-<a-box id= "wall2" position= "0 1.473 -4.907" scale="10 3 0.2" src="Images/retro_pacman.jpg"></a-box>
+<a-box id= "wallpaper2" position= "0 1.473 -4.907" scale="10 3 0.2" src="Images/retro_pacman.jpg"></a-box>
 <a-box id= "wall2" position= "0 1.473 -4.913" scale="10.01 3 0.205" color="#ECD499"></a-box>
-<a-box id= "wall3" position= "5.049 1.473 -0" rotation="0 -90 0" scale="10 3 0.2" color="#ECD499" src="Images/terraria_mountain.png"></a-box>
+<a-box id= "wallpaper3" position= "5.049 1.473 -0" rotation="0 -90 0" scale="10 3 0.2" color="#ECD499" src="Images/terraria_mountain.png"></a-box>
 <a-box id= "wall3" position= "5.055 1.473 -0" rotation="0 -90 0" scale="10.01 3 0.205" color="#ECD499"></a-box>
-<a-box id= "wall4" position= "-5.049 1.473 -0" rotation="0 90 0" scale="10 3 0.2" color="#ECD499 " src="Images/terraria_mountain.png"></a-box>
+<a-box id= "wallpaper4" position= "-5.049 1.473 -0" rotation="0 90 0" scale="10 3 0.2" color="#ECD499 " src="Images/terraria_mountain.png"></a-box>
 <a-box id= "wall4" position= "-5.055 1.473 -0" rotation="0 90 0" scale="10.01 3 0.205" color="#ECD499 "></a-box>
 <a-cylinder id="triangle_front" segments-radial="3" position="0 3.874 4.907" rotation="-90 0 0" scale="5.774 0.2 1.8" color="#D4B974"></a-cylinder>
 <a-cylinder id="triangle_back" segments-radial="3" position="0 3.874 -4.907" rotation="-90 0 0" scale="5.774 0.2 1.8" color="#D4B974"></a-cylinder>
@@ -30,7 +30,13 @@
 
 <a-plane id="art1" src="Images/gaming_pc.jpg" scale="4.5 2.5 0.5" rotation="0 -90 0" position="4.93 1.4 2"></a-plane>
 <a-plane id="art2" src="Images/gtx_1080ti.jpg" scale="4.5 2.5 01" rotation="0 -270 0" position="-4.772 1.47 0"></a-plane>
-
+<a-plane id="frame1" src="images/picture_frame.png" position="0 1.45 4.8" rotation="180 0 90" scale="2.7 3.6 0.1">
+    <a-plane id="art1" src="images/tennis_tuff.jpg" scale="0.92 0.92 0.1" position="0.002 0.002 0.319" rotation="0 0 90"></a-plane>
+</a-plane>
+<!-- 3D Object from Tinkercad -->
+<a-obj-model id="3dModel1" src="images/tinker.obj" mtl="images/obj.mtl" position="-3 0 -3" rotation="-90 45 0" scale="0.02 0.02 0.02"></a-obj-model>
+<a-obj-model id="3dModel2" src="images/tinker2.obj" mtl="images/obj2.mtl" position="3.2 0 -3.2" rotation="-90 -45 0" scale="0.02 0.02 0.02"></a-obj-model>
+<a-obj-model id="3dModel3" src="images/tinker3.obj" mtl="images/obj3.mtl" position="3.2 0 3.2" rotation="-90 180 0" scale="0.02 0.02 0.02"></a-obj-model>
 </a-scene>
 </body>
 </html>
